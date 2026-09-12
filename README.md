@@ -18,7 +18,7 @@ The objective was to transform raw supply chain data into an interactive dashboa
 
 ## 📊 DASHBOARD PREVIEW
 
-![Supply Chain & Logistics Dashboard](Dashboard/Supply_Chain_Dashboard.png)
+![Supply Chain & Logistics Dashboard](https://github.com/parasmahajan78/Supply-Chain-Logistics-Analysis/blob/529b68ceefe6558c21cceb090b216ae4f23be6b5/Supply%20Chain%20%26%20logistics%20Analyst%20project/Supply%20Chain%20Dashboard.png)
 
 ---
 
