@@ -1,0 +1,148 @@
+{
+  "name": "Custom Theme",
+  "dataColors": [
+    "#ffd700",
+    "#ddb900",
+    "#917800",
+    "#c49216",
+    "#5e3b00"
+  ],
+  "foreground": "#ffffff",
+  "background": "#2d2d2d",
+  "foregroundNeutralSecondary": "#dadbdc",
+  "backgroundLight": "#454545",
+  "foregroundNeutralTertiary": "#dadbdc",
+  "backgroundNeutral": "#454545",
+  "tableAccent": "#ffd700",
+  "maximum": "#917800",
+  "center": "#ddb900",
+  "minimum": "#ffd700",
+  "bad": "#ffd700",
+  "neutral": "#ddb900",
+  "good": "#917800",
+  "textClasses": {
+    "callout": {
+      "color": "#ffffff",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "title": {
+      "color": "#ffffff",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "header": {
+      "color": "#ffffff",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "label": {
+      "color": "#ffffff",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#454545"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#454545"
+              }
+            },
+            "show": true,
+            "radius": 8
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": {
+                "color": "#454545"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#454545"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#454545"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#2d2d2d"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ececec"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "$id": "Available",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

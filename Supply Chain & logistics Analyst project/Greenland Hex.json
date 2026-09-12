@@ -1,0 +1,148 @@
+{
+  "name": "Greenland Hex",
+  "dataColors": [
+    "#3968db",
+    "#ba61ff",
+    "#466b95",
+    "#a1f049",
+    "#1bcec5"
+  ],
+  "foreground": "#f9fafb",
+  "background": "#1a2737",
+  "foregroundNeutralSecondary": "#d1d5db",
+  "backgroundLight": "#273659",
+  "foregroundNeutralTertiary": "#d1d5db",
+  "backgroundNeutral": "#455373",
+  "tableAccent": "#3968db",
+  "maximum": "#466b95",
+  "center": "#ba61ff",
+  "minimum": "#3968db",
+  "bad": "#3968db",
+  "neutral": "#ba61ff",
+  "good": "#466b95",
+  "textClasses": {
+    "callout": {
+      "color": "#f9fafb",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "title": {
+      "color": "#f9fafb",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "header": {
+      "color": "#f9fafb",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    },
+    "label": {
+      "color": "#f9fafb",
+      "fontFace": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#455373"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#455373"
+              }
+            },
+            "show": true,
+            "radius": 8
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": {
+                "color": "#455373"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#455373"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#273659"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1a2737"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ececec"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "$id": "Available",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
